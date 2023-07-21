@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TempCalculator</title>
+    <meta http-equiv="author" content="Austin Munthali" />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="all">
+      <h2 id="title">CONVERT TEMPERATURE</h2>
+      <div class="box">
+        <div class="content">
+          <h2>From</h2>
+          <form action="#" id="from">
+            <select name="data" id="data">
+              <option value="formCelcius" id="fromCelcius" class="active">
+                <label for="fromCelcius">Celcius</label>
+              </option>
+              <option value="fromFahrenheit" id="fromFahrenheit">
+                <label for="fromFahrenheit">Fahrenheit</label>
+              </option>
+            </select>
+            <input type="text" name="send" id="sendData" />
+          </form>
+        </div>
+
+        <div class="content">
+          <h2>To</h2>
+          <form action="#" id="to">
+            <select name="information" id="information">
+              <option value="Celcius" id="celcius" class="active">
+                <label for="celcius">Celcius</label>
+              </option>
+              <option value="fahrenheit" id="fahrenheit">
+                <label for="fahrenheit">Fahrenheit</label>
+              </option>
+            </select>
+            <!-- <input type="text" name="receive" id="receiveData" /> -->
+            <div id="receiveData">0000</div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
